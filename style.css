@@ -6,6 +6,7 @@ body{
         color: red;
     }
     section{display:flex ;
+        margin-bottom: 150px;
 
     }
     .half-pic{
@@ -28,4 +29,6 @@ body{
     }
     .top-banner{
         background-image: url(images/shapes/Frame\ 58.jpg)
+    } .about-me{background-image: url(images/shapes/Frame\ 57.jpg);
+
     }
