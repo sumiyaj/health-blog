@@ -5,7 +5,8 @@ body{
     .red-color{
         color: red;
     }
-    section{display:flex ;
+    .flexible-cont
+    {display:flex ;
         margin-bottom: 150px;
 
     }
@@ -30,5 +31,34 @@ body{
     .top-banner{
         background-image: url(images/shapes/Frame\ 58.jpg)
     } .about-me{background-image: url(images/shapes/Frame\ 57.jpg);
+
+    }
+    .receipe-item{
+        background-image: url(images/shapes/Frame\ 58.jpg);
+    }
+    .food-health{width: 30%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 5px;
+        box-shadow: 5px 5px 30px aqua ;
+        border-radius: 5px;
+    } #soup-item{
+        border-left: 4px solid;
+        border-image: linear-gradient(blue,aqua);
+        border-image-slice: 1;
+
+    }
+    #salad-item{
+        border-left: 4px solid;
+        border-image: linear-gradient(blue,aqua);
+        border-image-slice: 1;
+
+    } #pasta-item {border-left: 4px solid;
+        border-image: linear-gradient(blue,aqua);
+        border-image-slice: 1;
+
+
+    }
+    footer p { text-align: center;
 
     }
